@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('Title', 'Cart | Bring It!')
 @section('content')
 <html>
     <title>Check Out</title>

@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('Title', 'Admin Dashboard | Bring It!')
 @section('content')
 <head>
 

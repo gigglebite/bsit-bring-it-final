@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('Title', 'Stores | Bring It!')
 @section('content')
 <!doctype html>
 <html lang="en">

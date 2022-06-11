@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('Title', 'About Us | Bring It!')
 @section('content')
 <html>
     <title>About Bring It!</title>

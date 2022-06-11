@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('Title', 'Welcome | Bring It!')
 @section('content')
 <html>
 <head>

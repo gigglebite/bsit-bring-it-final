@@ -1,4 +1,5 @@
 @extends('layouts.app')
+@section('Title', 'Charts | Bring It!')
 @section('content')
 <!--Load the AJAX API-->
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
