@@ -2,19 +2,18 @@
 
 @section('content')
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </head>
 <div class="container justify-content-center" id="content">
   <div class="row justify-content-center">
-    <div class="col" id="colone">
+    <div class="col justify-content-center" id="colone">
     </div>
-    <div class="col" id="coltwo">
-    <h1 id="welcome" > Welcome back! </h1>
+    <div class="col justify-content-center" id="coltwo">
     <div class="row justify-content-center" id="margin1">
+    <h1 id="welcome" > Welcome back! </h1>
     <form method="POST" action="{{ route('login') }}">
     @csrf
     <div class="form-group">
@@ -54,7 +53,6 @@
 
 #margin1 {
     margin-top: 35px;
-    margin-left: 10%;
 
     
 
@@ -85,13 +83,10 @@ html{
 }
 
 #welcome {
+    margin-left: 15%;
     font-size: 65px;
-    text-align: center;
 }
 
-.form-group {
-    
-}
 
 
 #colone {
@@ -99,6 +94,7 @@ html{
     background-size: 540px 540px;
     background-repeat: no-repeat;
     height: 500px; 
+    margin-left: 5%;
 
 }
 
@@ -113,6 +109,8 @@ margin-top:60px;
 
 #email, #password {
     width:400px;
+    margin-left: 10%;
+    margin-top: 10px;
 }
 
 .linkone {
