@@ -19,7 +19,7 @@ class PaymentController extends Controller
 
     $validated = $request->validate([
         'card_name' => 'required|max:150',
-        'card_number' => 'required|digits:12',
+        'card_number' => 'required|digits:16',
         'card_expiry_month' => 'required|digits:2',
         'card_expiry_year' => 'required|digits:4',
         'cvc' => 'required|max:3',

@@ -22,36 +22,36 @@
         <div class="col-lg-4">
           <img src="/images/puregold.jpg" class="rounded-circle" width="140" height="140"></img>
   
-          <h2 class="fw-normal" style="font-size: 25px;text-indent: 20px;">Puregold</h2>
-          <h2 style="font-size: 25px;text-indent: 25px;">Pandan</h2>
+          <h2 class="fw-normal" style="font-size: 20px;text-indent: 28px;">Puregold</h2>
+          <h2 style="font-size: 20px;text-indent: 28px;">Pandan</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="/images/johnnys.jpg" class="rounded-circle" width="140" height="140"></img>
   
-          <h2 class="fw-normal"  style="font-size: 25px; text-indent: 17px">Johnny's</h2>
+          <h2 class="fw-normal"  style="font-size: 20px;text-indent: 28px;">Johnny's</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="/images/nepomart.jpg" class="rounded-circle" width="140" height="140"></img>
   
 
-          <h2 class="fw-normal" style="font-size: 25px;text-indent: 12px;">Nepo Mart</h2>
+          <h2 class="fw-normal" style="font-size: 20px;text-indent: 28px;">Nepo Mart</h2>
           <br><br><br>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="/images/sm.jpg" class="rounded-circle" width="140" height="140"></img>
 
-          <h2 class="fw-normal" style="text-indent: 46px; font-size: 25px">SM <br>Hypermarket</h2>
-          <h2 style="text-indent: 35px; font-size: 25px">Clark</h2>
+          <h2 class="fw-normal" style="font-size: 20px;text-indent: 45px;">SM <br>Hypermarket</h2>
+          <h2 style="font-size: 20px;text-indent: 40px;">Clark</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="/images/robinsons.jpg" class="rounded-circle" width="140" height="140"></img>
 
-          <h2 class="fw-normal" style="font-size: 25px;text-indent: 17px">Robinson's <br>&nbsp;&nbsp;&nbsp;&nbsp;Balibago</h2>
+          <h2 class="fw-normal" style="font-size: 20px;text-indent: 28px;">Robinson's <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Balibago</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
           <img src="/images/super8.jpg" class="rounded-circle" width="140" height="140"></img>
 
-          <h2 class="fw-normal" style="text-indent: 30px; font-size: 25px">Super 8</h2>
+          <h2 class="fw-normal" style="font-size: 20px;text-indent: 35px;">Super 8</h2>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
 
