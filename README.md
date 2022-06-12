@@ -19,7 +19,8 @@ Listed below are the functionalities of Bring It!:
 <li> Users can look at their selected items or products in their own shopping cart. </li>
 <li> Users may remove items or products from their shopping cart. </li>
 <li> Users can use the checkout feature where they can specify their delivery information, payment details, and confirm their order. </li>
-<li> Users can delete their order. </li>
+<li> Admins can add, edit, delete products, categories, and edit various users' details in their dashboard. </li>
+<li> Admins can view automatically updated charts from Google containing relevant information. </li>
 
 ## Acknowledgments
 
