@@ -10,15 +10,15 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 Listed below are the functionalities of Bring It!:
 
-Users can login into their accounts. 
-Users can register for a new account. 
-Users may view the different grocery stores or supermarkets.
-Users can browse the categories of items or products. 
-Users can pick a list of items or products to add to their shopping cart. 
-Users can select the quantity of a chosen item or product. 
-Users can look at their selected items or products in their own shopping cart.
-Users may remove items or products from their shopping cart. 
-Users can use the checkout feature where they can specify their delivery information, payment details, and confirm their order. 
-Users can delete their order.
+<li> Users can login into their accounts. </li>
+<li> Users can register for a new account. </li>
+<li> Users may view the different grocery stores or supermarkets. </li>
+<li> Users can browse the categories of items or products. </li>
+<li> Users can pick a list of items or products to add to their shopping cart. </li>
+<li> Users can select the quantity of a chosen item or product. </li>
+<li> Users can look at their selected items or products in their own shopping cart. </li>
+<li> Users may remove items or products from their shopping cart. </li>
+<li> Users can use the checkout feature where they can specify their delivery information, payment details, and confirm their order. </li>
+<li> Users can delete their order. </li>
 
 
