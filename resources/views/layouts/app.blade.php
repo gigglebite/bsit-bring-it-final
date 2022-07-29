@@ -56,7 +56,7 @@
                     </button></a>
                         <!--<a id="color" class="nav-link" href="/cart">Shopping Cart<span style="color:black;">{{ Session::has('cart') ? Session::get('cart')->totalQty : '0'}}</span></a>!-->
                     </li>
-                    <li class="nav-item" style="margin-left: 30px;">
+                    <li class="nav-item" style="margin-left: 20px;">
                     <form action="/search">
                     <div class="input-group">
                     <div class="form-outline">
