@@ -74,6 +74,13 @@ class ProductController extends Controller
         return view('cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice]);
     }
 
+    public function search(Request $req){
+        $data = Product::
+        where('title', 'like', '%'.$req->input('query').'%')
+        ->get();
+        return view('search', ['products'=>$data]);
+    }
+
        
 }
 

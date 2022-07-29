@@ -65,6 +65,7 @@ Route::get('/profile',[App\Http\Controllers\OrderController::class, 'getOrders']
 
 // User Routes
 
+
 Route::get('/login', [App\Http\Controllers\HomeController::class, 'login'])->name('login');
 Route::get('/welcome', [App\Http\Controllers\HomeController::class, 'index'])->name('welcome');
 Route::get('/aboutus', [App\Http\Controllers\HomeController::class, 'aboutus'])->name('aboutus');
@@ -76,5 +77,6 @@ Route::get('/cart', [App\Http\Controllers\ProductController::class, 'getCart'])-
 Route::get('/reduce/{id}', [App\Http\Controllers\ProductController::class, 'getReduceByOne'])->name('reduceByOne');
 Route::get('/add-more/{id}', [App\Http\Controllers\ProductController::class, 'getAddOne'])->name('addOne');
 Route::get('/products/{category}',[App\Http\Controllers\ProductController::class, 'categoryProducts']);
+Route::get('/search',[App\Http\Controllers\ProductController::class, 'search']);
 
 

@@ -11,6 +11,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.cdnfonts.com/css/product-sans" rel="stylesheet">
@@ -45,7 +46,7 @@
                     <li class="nav-item">
                         <a id="color" class="nav-link" href="/aboutus">About Us</a>
                     </li>
-                    <li class="nav-item" style="margin-left: 50px;">
+                    <li class="nav-item" style="margin-left: 30px;">
                     <a href="/cart"><button type="button" class="btn btn-success position-relative">
                         Shopping Cart
                     <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark">
@@ -55,6 +56,19 @@
                     </button></a>
                         <!--<a id="color" class="nav-link" href="/cart">Shopping Cart<span style="color:black;">{{ Session::has('cart') ? Session::get('cart')->totalQty : '0'}}</span></a>!-->
                     </li>
+                    <li class="nav-item" style="margin-left: 30px;">
+                    <form action="/search">
+                    <div class="input-group">
+                    <div class="form-outline">
+                        <input type="text" name="query" class="form-control" style="width: 170px;" placeholder="Search" />
+                    </div>
+                    <button type="submit" class="btn btn-success">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                    </div>
+                    </form>
+                    <li>
+
                     </ul>
 
                     <!-- Right Side Of Navbar -->
