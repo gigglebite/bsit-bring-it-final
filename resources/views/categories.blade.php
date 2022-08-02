@@ -9,49 +9,23 @@
     <title>Home - Bring It!</title>
   </head>
 <body>
-
-
-
-<div class="container-fluid mx-auto">
-    <div class="table-responsive">
-    <table>
-        <th><h3>Categories</h3></th>
-        <tr>
+    <div class="container">
         <?php $rowcounter = 0;?>
-        <?php foreach ($categories as $category): ?>
-        <td><a href="/products/{{ $category->getCategory() }}"><img src="{{ $category->imagePath }}" class="each_category" alt="categories"></a></td>
+            <div class="row d-flex justify-content-center">
+                <?php foreach ($categories as $category): ?>
+                    <div class="col-xl-3 col-sm-6 mb-5">
+                        <a href="/products/{{ $category->getCategory() }}"><img src="{{ $category->imagePath }}" class="each_category" alt="categories"></a>
+                    </div>
         <?php $rowcounter += 1;?>
         <?php if ($rowcounter == 3):?>
-            <tr>
+            </div>
+                <div class="row d-flex justify-content-center">
         <?php endif;?>
         <?php endforeach; ?>
-
-        <!--
-        <td><img src="/images/2.png" class="other_category" alt="categories" href=""></td>
-        <td><img src="/images/3.png" class="other_category" alt="categories" href=""></td>
-        </tr>
-        <tr>
-        <td><button type="submit" name="category" value =""><img src="/images/4.png" class="other_category" alt="categories" href=""></button></td>
-        <td><img src="/images/5.png" class="other_category" alt="categories" href=""></td>
-        <td><img src="/images/6.png" class="other_category" alt="categories" href=""></td>
-        </tr>
-        !-->
-    </form> 
-    </table>
-</div>
-</div>
+    </div>
+        </div>
 </body>
 <style>
-table {
-    border: 0px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
- td {
-    padding-top: 30px;
-    padding-left: 110px;
-} 
 
 .each_category, .other_category {
     width: 230px;

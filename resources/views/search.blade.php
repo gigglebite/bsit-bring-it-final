@@ -14,7 +14,6 @@
     </div>
     @endif
     
-
 <div class="row row-cols-1 row-cols-md-4 g-6">
 <?php foreach ($products as $product): ?>
     <div class="card">
@@ -34,10 +33,11 @@
         </div>
     </div>
 </div>
-</div>
+
 <?php endforeach; ?>
   </div>
   </div>
+</div>
 </body>
 <style>
   #products_img {
